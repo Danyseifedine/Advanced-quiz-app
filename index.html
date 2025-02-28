@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-theme">
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <h1>Quiz<span>Master</span></h1>
+            </div>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch" class="theme-switch">
+                <label for="theme-switch" class="theme-switch-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </header>
+
+        <main>
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 40%"></div>
+                        </div>
+                        <div class="progress-text">Question 2 of 5</div>
+                    </div>
+                    <div class="timer">
+                        <i class="fas fa-clock"></i>
+                        <span>00:45</span>
+                    </div>
+                </div>
+
+                <div class="question-container">
+                    <div class="question-number">02</div>
+                    <h2 class="question-text">What is the capital city of France?</h2>
+                    
+                    <div class="options-container">
+                        <div class="option">
+                            <input type="radio" id="option1" name="answer" class="option-input">
+                            <label for="option1" class="option-label">
+                                <span class="option-marker">A</span>
+                                <span class="option-text">London</span>
+                            </label>
+                        </div>
+                        
+                        <div class="option">
+                            <input type="radio" id="option2" name="answer" class="option-input">
+                            <label for="option2" class="option-label">
+                                <span class="option-marker">B</span>
+                                <span class="option-text">Paris</span>
+                            </label>
+                        </div>
+                        
+                        <div class="option">
+                            <input type="radio" id="option3" name="answer" class="option-input">
+                            <label for="option3" class="option-label">
+                                <span class="option-marker">C</span>
+                                <span class="option-text">Berlin</span>
+                            </label>
+                        </div>
+                        
+                        <div class="option">
+                            <input type="radio" id="option4" name="answer" class="option-input">
+                            <label for="option4" class="option-label">
+                                <span class="option-marker">D</span>
+                                <span class="option-text">Madrid</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation-buttons">
+                    <button class="btn btn-secondary">Previous</button>
+                    <button class="btn btn-primary">Next Question</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Simple theme toggle functionality
+        document.getElementById('theme-switch').addEventListener('change', function() {
+            document.body.classList.toggle('dark-theme');
+            document.body.classList.toggle('light-theme');
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html> 
