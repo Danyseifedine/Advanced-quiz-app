@@ -1,0 +1,97 @@
+# Geographic Quiz App
+
+## Overview
+
+This interactive quiz application focuses on geography, allowing users to test their knowledge of world locations while providing a rich, engaging experience. The app combines educational content with interactive features like maps, text-to-speech, and visual feedback to create an immersive learning environment.
+
+![Geographic Quiz App Screenshot](path/to/screenshot.png)
+
+## Features
+
+### Core Quiz Functionality
+
+- Multiple-choice geography questions with instant feedback
+- Progress tracking and scoring system
+- Timer with adjustable difficulty levels
+- Review of answers at the end with correct/incorrect indicators
+
+### Interactive Map Integration
+
+- Real-time map display showing the location of selected answers
+- Visual indicators for correct and incorrect selections
+- Zoom and pan functionality to explore the geography around answers
+
+### Accessibility Features
+
+- Text-to-speech narration for questions and answers
+- Dark/light theme toggle for different lighting conditions
+- Keyboard shortcuts for navigating the quiz
+
+### Learning Enhancements
+
+- Hint system to eliminate incorrect options
+- Note-taking capability for each question
+- Bookmark system to save difficult questions for later review
+- Emoji reactions to express feelings about questions
+
+### User Experience
+
+- Responsive design that works on desktop and mobile devices
+- Confetti animations for correct answers
+- Toast notifications for important information
+- Focus mode to minimize distractions
+
+## How to Use
+
+1. **Start the Quiz**: Open the app and select your difficulty level (Easy, Medium, Hard, or Expert).
+2. **Answer Questions**: Read each geography question and select your answer from the multiple-choice options.
+3. **Use the Map**: After selecting an answer, the map will display the location, allowing you to see exactly where it is in the world.
+4. **Utilize Features**:
+   - Click the speaker icon to hear questions and answers read aloud
+   - Use the hint button if you're stuck
+   - Take notes on questions for future reference
+   - Bookmark challenging questions to revisit later
+   - Toggle between light and dark themes based on your preference
+5. **Review Results**: After completing all questions, review your score and see which questions you answered correctly or incorrectly.
+
+## Technical Details
+
+The Geographic Quiz App is built using:
+
+- HTML5, CSS3, and JavaScript for the core functionality
+- Leaflet.js for interactive maps
+- Web Speech API for text-to-speech capabilities
+- LocalStorage for saving user preferences and progress
+- FontAwesome for icons
+- Responsive design principles for cross-device compatibility
+
+## Installation
+
+No installation required! This is a web-based application that runs in any modern browser.
+
+1. Clone the repository or download the files
+2. Open index.html in your web browser
+3. Start learning about world geography!
+
+## Future Enhancements
+
+- Additional question categories (capitals, landmarks, rivers, etc.)
+- User accounts to save progress across devices
+- Leaderboards to compare scores with friends
+- Custom quiz creation for teachers and educators
+- More detailed information about each location
+
+## Credits
+
+- Map data provided by OpenStreetMap
+- Geographic information curated from reliable educational sources
+- Icons from FontAwesome
+- Developed by Your Name/Team
+
+## License
+
+[Add your license information here]
+
+## Contact
+
+[Add your contact information here]
